@@ -1,28 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Steven Hampton</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-    <!-- Your custom styles go here -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Custom Style Sheet-->
     <link rel="stylesheet" href="CSS/personal-site.css">
 </head>
-<body>
-<!-- Main page content -->
-<ul class="nav nav-pills nav-stacked">
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">Menu 1</a></li>
-    <li><a href="#">Menu 2</a></li>
-    <li><a href="#">Menu 3</a></li>
-</ul>
 
-<!-- JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<!-- Your custom JS goes here -->
+<body>
+<!--My Header-->
+<!--Jumbotron-->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Steven Hampton's Portfolio</h1>
+    </div>
+</div>
+<!--End Jumbotron-->
+<!--Start Navbar-->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">S/H</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+    </div>
+</nav>
+<!--End of Navbar-->
+<!--End of Header-->
+
+<!--Start of page-->
+<div class="container" id="home">
+    <p>I am currently a student in CodeUp learning to become a full stack developer.</p>
+</div>
+<div class="container" id="aboutMe">
+    <h1>About me as a person</h1>
+</div>
+<div class="container" id="projects">
+    <h1>Projects I have worked on</h1>
+</div>
+<div class="container" id="resume">
+    <h1>Resume</h1>
+</div>
+<div class="container" id="contact">
+    <h1>Contact me</h1>
+    <table>
+        <tr><strong>Email:</strong> steven.hampton415@gmail.com</tr><br>
+        <tr><strong>Phone:</strong> 1-706-718-6595</tr>
+    </table>
+</div>
+<!--Imported Scripts-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--Custom Scripts-->
 <script src="JS/personal-site.js"></script>
 </body>
+
 </html>
