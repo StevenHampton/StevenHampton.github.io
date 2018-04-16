@@ -37,8 +37,9 @@ body{
 
 .body {
     padding:20px;
-    width:100%;
+    width:50%;
     position:relative;
+    margin: 0 auto;
     background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
     background: rgba(204, 204, 204, 0.5);
 }
@@ -53,4 +54,8 @@ body{
     left:0;
     bottom:0;
 
+}
+
+.container{
+    width: 100%;
 }
