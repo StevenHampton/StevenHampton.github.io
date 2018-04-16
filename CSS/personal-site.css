@@ -1,19 +1,25 @@
 *{margin: 0; padding: 0}
 
 body{
-    background-color: #AFEEEE;
+    background-color: #8B6969;
     color: black;
+    background-image: url("../imgs/coffee-cup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .jumbotron{
     margin-bottom: 0;
-    background-color: #49B0CB;
+    padding-top: 15px;
+    padding-bottom: 0;
+    background-color: #CD9B9B
 }
 
 
+
 /*Navbar Styling*/
-.navbar{background-color: #417D9F;}
-.navbar-default{border-color: papayawhip;}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {background-color: papayawhip;}
+.navbar{background-color: #8B6969; margin-bottom: 0;}
+.navbar-default{border-color: #8B3A3A;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {background-color: #EED5D2;}
 .navbar-default .navbar-nav>li>a{color: black}
 .navbar-default .navbar-brand{color: black; font-family: Apple Chancery, cursive}
 /* End of Navbar Styling*/
@@ -24,4 +30,12 @@ body{
 
 .icon img{
     border-radius: 25%;
+}
+
+.body {
+    padding:20px;
+    width:100%;
+    position:relative;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.5);
 }
