@@ -6,6 +6,7 @@ body{
     background-image: url("../imgs/coffee-cup.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Titillium Web', sans-serif;
 }
 .jumbotron{
     margin-bottom: 0;
