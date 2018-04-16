@@ -17,3 +17,11 @@ body{
 .navbar-default .navbar-nav>li>a{color: black}
 .navbar-default .navbar-brand{color: black; font-family: Apple Chancery, cursive}
 /* End of Navbar Styling*/
+
+.center{
+    text-align: center;
+}
+
+.icon img{
+    border-radius: 25%;
+}
