@@ -23,16 +23,16 @@
 <!--End Jumbotron-->
 <!--Start Navbar-->
 <nav class="navbar navbar-default">
-    <div class="container-fluid">
+    <div class="container-fluid justify-content-end">
         <div class="navbar-header">
             <div class="navbar-brand"><p>S/H</p></div>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li class="active" id="li1"><a id="homeA" href="#">Home</a></li>
+            <li id="li2"><a  id="aboutMeA" href="#">About Me</a></li>
+            <li id="li3"><a id="projectsA" href="#">Projects</a></li>
+            <li id="li4"><a id="resumeA" href="#">Resume</a></li>
+            <li id="li5"><a id="contactMeA" href="#">Contact Me</a></li>
         </ul>
     </div>
 </nav>
@@ -45,7 +45,7 @@
     <p>I am currently a student in CodeUp learning to become a full stack developer. Programming languages that
     I know are HTML, CSS, Javascript, Java, PHP. and am willing to learn anything else.</p>
 </div>
-<div class="container" id="aboutMe">
+<div class="container hidden" id="aboutMe">
     <h1>About me as a person</h1>
     <p>I have always enjoyed technology and tech in my life, but have always pursued other paths in life.
     I Spent some time in the Army, and deployed twice to Iraq, shaping me as a person. After i got out of
@@ -60,13 +60,13 @@
     a page or program loads the exact way you want it to. I look forward to continuing a long career in tech and
     even now feel like I would enjoy furthering my education.</p>
 </div>
-<div class="container" id="projects">
+<div class="container hidden" id="projects">
     <h1>Projects I have worked on</h1>
 </div>
-<div class="container" id="resume">
+<div class="container hidden" id="resume">
     <h1>Resume</h1>
 </div>
-<div class="container" id="contact">
+<div class="container hidden" id="contact">
     <h1>Contact me</h1>
     <table>
         <tr><strong>Email:</strong> steven.hampton415@gmail.com</tr><br>
@@ -77,11 +77,11 @@
 <!--end of main page-->
 
 <!--Footer-->
-<footer class="page-footer font-small indigo pt-0">
+<footer class="page-footer font-small indigo pt-0" id="pageFooter">
     <!--Footer Links-->
     <div class="container">
         <!--First row-->
-        <div class="row center">
+        <div class="row">
                     <!--Facebook-->
                     <a class="fb icon" href="https://www.facebook.com/steven.hampton.311">
                         <img src="imgs/facebook.png">
@@ -104,7 +104,7 @@
     <!--/Footer Links-->
 
     <!--Copyright-->
-    <div class="footer-copyright py-3 text-center">
+    <div class="footer-copyright py-3">
         © 2018 Copyright: Steven Hampton
     </div>
     <!--/Copyright-->
@@ -114,6 +114,7 @@
 <!--Imported Scripts-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="JS/jquery.js"></script>
 <!--Custom Scripts-->
 <script src="JS/personal-site.js"></script>
 </body>
