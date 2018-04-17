@@ -59,3 +59,16 @@ body{
 .container{
     width: 100%;
 }
+
+#portrait{
+    height: 30%;
+    width: 100%;
+    clear: both;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#resumeFile{
+    width: 100%;
+    height: 600px;
+}
